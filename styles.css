@@ -106,6 +106,8 @@ tr > td > a > button:hover {
   left:0;
   margin-left: 10px;
   animation: drive 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
 }
 
 .road {
@@ -198,7 +200,7 @@ tr > td > a > button:hover {
 
 @keyframes drive {
   from {transform: translateX(0)}
-  to {transform: translateX(1500px)}
+  to {transform: translateX(1100px)}
 }
 
 #homepage {
